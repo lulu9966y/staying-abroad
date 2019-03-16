@@ -1,0 +1,43 @@
+.Main {
+  /* border: 1px solid green; */
+  position: relative;
+  margin: 0 20px;
+}
+
+form {
+  background-color: #dddddd;
+  position: relative;
+  top: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: auto;
+  height: 55px;
+}
+
+input[type="text"] {
+  width: 70%;
+  font-size: 18px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+input[type="image"] {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.News {
+  position: relative;
+  top: 75px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
