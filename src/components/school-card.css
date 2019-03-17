@@ -1,10 +1,10 @@
-.NewsCard {
+.SchoolCard {
   border-radius: 15px;
   box-shadow: 0px 5px 20px 0px rgba(120, 120, 120, 0.3);
   overflow: hidden;
   margin-bottom: 35px;
-  height: 285px;
-  width: 100%;
+  width: 160px;
+  height: 192px;
   text-align: left;
   position: relative;
 }
@@ -12,29 +12,23 @@
 .Photo {
   /* border: 1px solid green; */
   width: 100%;
-  height: 70%;
+  height: 60%;
   background-image: url("../photos/20161115RITMAGICSpellrendering.jpg");
   background-size: cover;
 }
 
-.NewsCard h1 {
+.SchoolCard h1 {
   -webkit-text-fill-color: #000000;
   font-family: "Helvetica", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0px;
   line-height: 1.2;
 }
-.NewsCard h2 {
-  -webkit-text-fill-color: #999999;
+.SchoolCard h2 {
+  -webkit-text-fill-color: #000000;
   font-family: "Helvetica", sans-serif;
   font-size: 14px;
-  font-weight: 400;
   letter-spacing: 0px;
   line-height: 1.2;
-}
-
-.NewsCard img {
-  position: absolute;
-  right: 10px;
-  top: 75%;
+  font-weight: 400;
 }
