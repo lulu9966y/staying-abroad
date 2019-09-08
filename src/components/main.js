@@ -15,9 +15,7 @@ export default class Main extends React.Component {
           />
         </form>
         <div className="News">
-        <NewsCard />
-        <NewsCard />
-        <NewsCard />
+          <NewsCard />
         </div>
       </div>
     );

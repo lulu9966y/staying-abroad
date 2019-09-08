@@ -1,3 +1,6 @@
+.NewsCardContainer {
+  width: 100%;
+}
 .NewsCard {
   border-radius: 15px;
   box-shadow: 0px 5px 20px 0px rgba(120, 120, 120, 0.3);
@@ -13,7 +16,7 @@
   /* border: 1px solid green; */
   width: 100%;
   height: 70%;
-  background-image: url("../photos/20161115RITMAGICSpellrendering.jpg");
+  /* background-image: url("../photos/20161115RITMAGICSpellrendering.jpg"); */
   background-size: cover;
 }
 
