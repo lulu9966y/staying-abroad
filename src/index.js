@@ -5,15 +5,17 @@ import App from "./App";
 import Jinnang from "./jinnang";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Gonglve from "./gonglve";
 import Map from "./map";
+import RIT from "./archive/RIT";
+import Chalmers from "./archive/Chalmers";
 
 const routing = (
   <Router>
     <div>
       <Route exact path="/" component={App} />
       <Route path="/jinnang" component={Jinnang} />
-      <Route path="/gonglve" component={Gonglve} />
+      <Route path="/rochester_institute_of_technology" component={RIT} />
+      <Route path="/chalmers_institute_of_technology" component={Chalmers} />
       <Route path="/map" component={Map} />
     </div>
   </Router>

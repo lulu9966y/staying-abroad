@@ -1,7 +1,6 @@
 import React from "react";
 import "./school-list.css";
 import SchoolCard from "./school-card";
-import { Link } from "react-router-dom";
 
 export default class SchoolList extends React.Component {
   render() {
@@ -16,12 +15,7 @@ export default class SchoolList extends React.Component {
           />
         </form>
         <div className="School">
-          <Link to="/gonglve"><SchoolCard /></Link>
-          <Link to="/gonglve"><SchoolCard /></Link>
-          <Link to="/gonglve"><SchoolCard /></Link>
-          <Link to="/gonglve"><SchoolCard /></Link>
-          <Link to="/gonglve"><SchoolCard /></Link>
-          <Link to="/gonglve"><SchoolCard /></Link>
+          <SchoolCard />
         </div>
       </div>
     );

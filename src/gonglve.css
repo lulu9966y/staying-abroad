@@ -1,17 +1,18 @@
 .Gonglve {
   /* border: 1px solid green; */
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("./photos/20161115RITMAGICSpellrendering.jpg");
-  background-size: cover;
+  /* background-image: url("./photos/rit.jpg"); */
 }
 
 .Container {
-    /* border: 1px solid green; */
-    position: relative;
-    width: 100%;
-    height: 80%;
+  /* border: 1px solid green; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 100;
 }
 
 .Gonglve h2 {
@@ -43,4 +44,12 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  bottom: 15%;
+}
+
+#Menu {
+  position: relative;
+  width: 100%;
+  overflow-y: visible;
+  top: 50px;
 }

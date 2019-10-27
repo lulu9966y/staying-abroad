@@ -1,0 +1,15 @@
+[
+  {
+    "index": "rochester_institute_of_technology",
+    "Chinese": "美国 | 罗切斯特理工",
+    "English": "Rochester Institute of Technology",
+    "image": "../photos/rit.jpg"
+  },
+  {
+    "index": "chalmers_institute_of_technology",
+
+    "Chinese": "瑞典 | 查尔姆斯理工",
+    "English": "Chalmers Institute of Technology",
+    "image": "../photos/chalmers.jpg"
+  }
+]
