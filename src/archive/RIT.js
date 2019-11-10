@@ -16,7 +16,33 @@ export class RIT extends Component {
     e.target.parentNode.parentNode.style.display = "none";
   };
 
+  handleStyle = e => {
+    e.target.nextSibling.style.display = "block";
+  };
+
+  handleStyle1 = e => {
+    e.target.style.display = "none";
+  };
+
   render() {
+    const items = [];
+    for (const property in RITdata.content) {
+      items.push(
+        <div>
+          <div className="item" onClick={this.handleStyle}>
+            {property}
+          </div>
+          <div
+            className="detail"
+            style={{ display: "none" }}
+            onClick={this.handleStyle1}
+          >
+            {RITdata.content[property]}
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="Gonglve">
         <div
@@ -30,12 +56,7 @@ export class RIT extends Component {
           </a>
         </div>
         {this.state.transparent ? <Header back transparent /> : <Header back />}
-        <div id="Menu">
-          <ul>
-            <li>关于纽约</li>
-            <li>不可错过</li>
-          </ul>
-        </div>
+        <div id="Menu">{items}</div>
       </div>
     );
   }

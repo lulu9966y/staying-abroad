@@ -2,5 +2,27 @@
   "index": "chalmers_institute_of_technology",
   "Chinese": "瑞典 | 查尔姆斯理工",
   "English": "Chalmers Institute of Technology",
-  "image": "../photos/chalmers.jpg"
+  "image": "../photos/chalmers.jpg",
+  "content": {
+    "关于查尔姆斯理工 | 速写": "全美第二古老的私立院校，坐落于纽约州第三大城市罗切斯特。拥有全美第2的游戏设计，第2的摄影专业，第8工业设计，以及第1的学生创新和创业中心。",
+    "行前准备 | 签证": "This is the content of 行前准备",
+    "行前准备 | 学费缴纳": "This is the content of 行前准备",
+    "行前准备 | 机票购买": "This is the content of 行前准备",
+    "行前准备 | 学校账户": "This is the content of 行前准备",
+    "行前准备 | 住宿选择": "This is the content of 行前准备",
+    "行前准备 | 必备清单": "This is the content of 行前准备",
+    "当地生活 | 美食": "This is the content of 行前准备",
+    "当地生活 | 购物": "This is the content of 行前准备",
+    "当地生活 | 交通": "This is the content of 行前准备",
+    "当地生活 | 银行": "This is the content of 行前准备",
+    "当地生活 | 医疗": "This is the content of 行前准备",
+    "当地生活 | 景点": "This is the content of 行前准备",
+    "当地生活 | 活动": "This is the content of 行前准备",
+    "学校资源 | 比赛": "This is the content of 行前准备",
+    "学校资源 | 社团": "This is the content of 行前准备",
+    "学校资源 | 创业活动": "This is the content of 行前准备",
+    "地图 | 校园地图": "This is the content of 行前准备",
+    "地图 | 区域地图": "This is the content of 行前准备",
+    "地图 | 城市地图": "This is the content of 行前准备"
+  }
 }

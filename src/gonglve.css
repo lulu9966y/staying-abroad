@@ -53,3 +53,20 @@
   overflow-y: visible;
   top: 50px;
 }
+
+.item {
+  margin: 5px 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.detail {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  top: 50px;
+  padding-top: 20px;
+}
+.detail p {
+  width: 90%;
+}
